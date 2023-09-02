@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html,
+body {
+  font-family: "Play", sans-serif;
+  align-items: center;
+  text-align: center;
+  background-color: #a8df8e;
+  margin: auto auto;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15% 20%;
+}
+p {
+  font-size: 30px;
+}
+button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: #053116;
+  padding: 16px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 600;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 20%;
+  vertical-align: top;
+}
+#quoteButton {
+  position: fixed;
+  top: 58%; /*To adjust value to place the button vertically */
+  right: 40%; /*To adjust value to place the button horizontally */
+  transform: translateY(-50%);
+}
